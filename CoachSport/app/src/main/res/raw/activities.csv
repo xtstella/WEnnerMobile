@@ -1,0 +1,9 @@
+Type,Date,Favorite,Title,Distance,Cal,Time,Avg HR,Max HR,Aerobic TE,Avg Cadence,Max Cadence,Avg Speed,Max Speed,Elev Gain,Elev Loss,Avg Stride Length,Avg Vertical Ratio,Avg Vertical Oscillation,Avg Ground Contact Time,Avg GCT Balance,Avg Cadence,Max Cadence,Normalized Power® (NP®),L/R Balance,Training Stress Score®,Max Avg Power (20 min),Power,Max Power,Total Strokes,Avg. Swolf,Avg Stroke Rate
+cycling,2017/8/2 14:46,FALSE,Bures-sur-Yvette Cycling,1.62,9,04:25.2,82,110,1,--,--,22,45,31,5,0,0,0,--,--,--,--,--,--,0,--,--,--,--,--,--
+cycling,2017/8/2 14:42,FALSE,Orsay Cycling,2.03,7,03:57.8,76,99,1,--,--,30.8,58,45,14,0,0,0,--,--,--,--,--,--,0,--,--,--,--,--,--
+walking,2017/8/2 14:40,FALSE,Walking,0.06,--,00:46.4,48,56,1,28,118,13:08,10:46,--,2,1,0,0,--,--,--,--,--,--,0,--,--,--,--,--,--
+walking,2017/8/2 13:00,FALSE,Bures-sur-Yvette Walking,0.84,9,02:52.9,97,117,1,40,121,3:26,1:58,6,5,5.42,0,0,--,--,--,--,--,--,0,--,--,--,--,--,--
+hiking,2017/6/29 10:03,FALSE,Hiking,0,--,00:06.0,90,92,1,--,--,--,--,--,--,0,0,0,--,--,--,--,--,--,0,--,--,--,--,--,--
+walking,2016/1/16 5:20,FALSE,Walking,0.02,--,00:22.8,72,73,1,41,118,17:13,11:54,--,--,1.41,0,0,--,--,--,--,--,--,0,--,--,--,--,--,--
+walking,2016/1/16 5:20,FALSE,Walking,0,--,00:05.4,75,75,1,--,--,--,--,--,--,0,0,0,--,--,--,--,--,--,0,--,--,--,--,--,--
+running,2016/1/1 8:39,FALSE,Running,0,--,00:49.9,--,--,0,--,--,--,--,--,--,0,0,0,--,--,--,--,--,--,0,--,--,--,--,--,--
