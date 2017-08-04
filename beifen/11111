@@ -1,0 +1,36 @@
+//  Show always the menu title
+//  get the private BottomNavigationMenuView field
+        Field f = null;
+        try {
+            f = bottomNavigationView.getClass().getDeclaredField("mMenuView");
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        }
+        f.setAccessible(true);
+        BottomNavigationMenuView menuView=null;
+        try {
+            menuView = (BottomNavigationMenuView) f.get(bottomNavigationView);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+
+//  get the private BottomNavigationItemView[]  field
+        try {
+            f=menuView.getClass().getDeclaredField("mButtons");
+        } catch (NoSuchFieldException e) {
+            e.printStackTrace();
+        }
+        f.setAccessible(true);
+        BottomNavigationItemView[] mButtons=null;
+        try {
+            mButtons = (BottomNavigationItemView[]) f.get(menuView);
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        }
+
+
+        for(int i=0;i<mButtons.length;i++){
+            mButtons[i].setShiftingMode(false);
+            mButtons[i].setChecked(true);
+        }
+//  Show always the menu title

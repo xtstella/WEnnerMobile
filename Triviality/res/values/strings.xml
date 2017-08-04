@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Titre application et écran -->
+    <string name="app_name">Coach Virtuel Bien Être</string>
+    <string name="menu_settings">Options</string>
+    <!-- Texte bouton questionnaire -->
+    <string name="str_next">Suivant</string>
+    <!-- Textes bilan -->
+    <string name="CopingEmotionFaible">Bilan des résultats:\nVous avez tendance à réagir de façon émotionnelle aux situations de stress.\n\n\nSuggestion de solutions:\nPour mieux faire face aux situations difficiles, vous pouvez apprendre à réguler votre réactivité émotionnelle en utilisant des techniques psychocorporelles comme la relaxation, la méditation ou le yoga.\n\nVous pouvez également utiliser davantage votre réseau relationnel.\nPour cela listez les personnes qui peuvent vous aider dans différentes circonstances.\n\nSi vous n\'osez pas demander de l\'aide, les méthodes d\'affirmation de soi et de jeux de rôle peuvent vous aider.\n\nEnfin, seul ou avec l\'aide de quelqu\'un, réfléchissez  à votre organisation du travail, votre gestion du temps, pour pouvoir progresser dans vos stratégies de résolution de problème.\n\ncode:HHH</string>
+    <string name="CopingEmotionFort">Bilan des résultats:\nVous avez tendance à réagir de façon très émotionnelle aux situations de stress.\n\n\nSuggestion de solutions:\nPour mieux faire face aux situations difficiles, vous pouvez apprendre à réguler votre réactivité émotionnelle en utilisant des techniques psychocorporelles comme la relaxation, la méditation ou le yoga.\nPratiquez une activité physique régulière peut également vous aider.\n\nVous pouvez également utiliser davantage votre réseau relationnel.\nPour cela listez les personnes qui peuvent vous aider dans différentes circonstances.\n\nSi vous n\'osez pas demander de l\'aide, les méthodes d\'affirmation de soi et de jeux de rôle peuvent vous aider.\n\nEnfin, seul ou avec l\'aide de quelqu\'un, réfléchissez à votre organisation du travail, votre gestion du temps, pour pouvoir progresser dans vos stratégies de résolution de problème.\n\ncode:HBH</string>
+    <string name="CopingProblemeFaible">Bilan des résultats:\nVous avez tendance à perdre votre concentration et vos objectifs de vue en situation de stress.\n\n\nSuggestion de solutions:\nVous pouvez améliorer cela en pratiquant, seul ou avec l\'aide de quelqu\'un des méthodes de résolution de problème et de gestion du temps.\n\nVous pouvez également améliorer votre concentration en diminuant votre activation émotionnelle grâce  à des techniques psychocorporelles comme la méditation ou le yoga ou une activité physique régulière.\n\ncode:HBB</string>
+    <string name="CopingProblemeFort">Bilan des résultats:\nVous perdez votre concentration et vos objectifs de vue en situation de stress.\n\n\nSuggestion de solutions:\nVous pouvez améliorer cela en pratiquant, avec l\'aide d\'un coach, des méthodes de résolution de problème et de gestion du temps.\n\nVous pouvez également améliorer votre concentration en diminuant votre activation émotionnelle grâce  à des techniques psychocorporelles comme la méditation ou le yoga ou une activité physique régulière de type aérobie (marche, vélo, course, natation).\n\ncode:BBH</string>
+    <string name="SoutienSocialFaible">Bilan des résultats:\nVous avez tendance à régler les problèmes par vous-même en situation de stress.\n\n\nSuggestion de solutions:\nVous seriez sans doute plus efficace si vous fausiez appel à votre réseau relationnel.\n\nPour cela vous pouvez listez les personnes autour de vous, ainsi que leurs compétences.\n\nVous pourrez ainsi plus facilement faire appel à eux en situation d\'urgence.\n\nSi vous n\'osez pas demander de l\'aide, les techniques d\'affirmation de soi, de jeux de rôle ou la communication non-violente peuvent vous aider.\n\ncode:HHB</string>
+    <string name="SoutienSocialFort">Bilan des résultats:\nVous pensez que vous pouvez régler les problèmes par vous-même en situation de stress.\n\n\nSuggestion de solutions:\nVous seriez sans doute plus efficace si vous faisiez appel à votre réseau relationnel.\n\nPour cela vous pouvez listez les personnes autour de vous, ainsi que leurs compétences.\n\nVous pourrez ainsi plus facilement faire appel à eux en situation d\'urgence.\n\nSi vous n\'osez pas demander de l\'aide, les techniques d\'affirmation de soi, de jeux de rôle ou la communication non-violente peuvent vous aider.\n\ncode:BHH</string>
+
+    <string name="avant_quiz">"Nous pouvons réagir de différentes manières lorsque nous sommes confrontés à des événements difficiles ou gênants dans notre vie doctorale\n\nLisez chaque phrase présentées ci-dessous, puis indiquez, parmi les quatre points (non ; plutôt non ; plutôt oui ; oui) celui qui correspond le mieux à ce que vous faites ou ressentez habituellement lorsque vous êtes confronté(e) à ce type d’événement."</string>
+    <string name="apres_quiz">"Vous êtes arrivé au bout du questionnaire. Merci pour votre participation à ces tests utilisateurs.\n\nLe coach virtuel va maintenant vous présenter le bilan de vos réponses, ainsi que des suggestions afin d'améliorer votre bien-être.\n\nVous n'êtes pas obligé de consulter la page de bilan. Si vous le souhaitez, vous pouvez arreter le test ici."</string>
+
+    <string-array name="Questions">
+
+        <item name="Question1" categorie = "0">Je me sens gêné(e) par la charge de travail demandé</item>
+        <item name="Question2" categorie = "0">Il m\'arrive d\'être gêné(e) par le fait de travailler rapidement</item>
+        <item name="Question3" categorie = "0">Mon directeur et mes co-directeurs me donnent des directives claires et unanimes</item>
+        <item name="Question4" categorie = "0">Il m\'arrive d’être gêné(e) par le manque d’encadrement dans mon projet de recherche</item>
+        <item name="Question5" categorie = "0">Mon sujet de thèse me passionne</item>
+        <item name="Question6" categorie = "0">Je dois être créatif pour la réalisation de ma thèse</item>
+
+        <item name="Question7" categorie = "1">J\'ai établi un plan d\'action</item>
+        <item name="Question8" categorie = "3">J\'ai parlé à quelqu\'un de ce que je ressentais</item>
+        <item name="Question9" categorie = "1">Je me suis battu(e) pour ce que je voulais</item>
+        <item name="Question10" categorie = "1">J\'ai changé positivement</item>
+        <item name="Question11" categorie = "1">J\'ai pris les choses une à une</item>
+        <item name="Question12" categorie = "2">J\'ai souhaité pouvoir changer ce qui arrivait</item>
+        <item name="Question13" categorie = "2">Je me suis senti(e) mal de ne pouvoir éviter le problème</item>
+        <item name="Question14" categorie = "2">J\'ai souhaité que la situation disparaisse ou finisse</item>
+        <item name="Question15" categorie = "1">Je me suis concentré(e) sur un aspect positif qui pourrait apparaître après</item>
+        <item name="Question16" categorie = "3">J\'ai discuté avec quelqu\'un pour en savoir plus au sujet de la situation</item>
+        <item name="Question17" categorie = "2">J\'ai espéré qu’un miracle se produise</item>
+        <item name="Question18" categorie = "3">J\'ai demandé des conseils à une personne digne de respect et je les ai suivis</item>
+        <item name="Question19" categorie = "1">Je suis sorti(e) plus fort(e) de la situation</item>
+        <item name="Question20" categorie = "1">J\'ai changé les choses pour que tout puisse bien finir</item>
+        <item name="Question21" categorie = "2">Je me suis culpabilisé(e)</item>
+        <item name="Question22" categorie = "3">J\'ai contenu (gardé pour moi) mes émotions</item>
+        <item name="Question23" categorie = "3">J\'ai parlé à quelqu\'un qui pouvait agir concrètement au niveau du problème</item>
+        <item name="Question24" categorie = "1">J\'ai essayé de ne pas agir de manière précipitée ou de suivre la première idée</item>
+        <item name="Question25" categorie = "3">J\'ai essayé de ne pas m\'isoler (par rapport aux autres)</item>
+        <item name="Question26" categorie = "2">J\'ai pensé à des choses iréelles ou fantastiques pour me sentir mieux</item>
+        <item name="Question27" categorie = "3">J\'ai accepté la sympathie et la compréhension de quelqu\'un</item>
+        <item name="Question28" categorie = "1">J\'ai trouvé une ou deux solutions au problème</item>
+        <item name="Question29" categorie = "2">J\'ai essayé de tout oublier</item>
+        <item name="Question30" categorie = "3">J\'ai sollicité l\'aide d’un professionnel et j\'ai fait ce qu\'il m\'a conseillé</item>
+        <item name="Question31" categorie = "2">J\'ai souhaité pouvoir changer d\'attitude</item>
+        <item name="Question32" categorie = "1">Je savais ce qu\'il fallait faire, aussi j\'ai redoublé d’efforts et j\'ai fait tout mon possible pour y arriver</item>
+        <item name="Question33" categorie = "2">Je me suis critiqué(e) ou sermonné(e)</item>
+
+    </string-array>
+    <string-array name="Reponse">
+    <!-- Reponses questions -->
+        <item name="oui">Oui</item>
+        <item name="plutotoui">Plutôt oui</item>
+        <item name="plutotnon">Plutôt non</item>
+        <item name="non">Non</item>
+    </string-array>
+
+</resources>
