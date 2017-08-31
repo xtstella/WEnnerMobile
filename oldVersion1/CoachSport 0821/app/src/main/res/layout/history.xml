@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.limsi.coachsport.HistoryActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grid_frame"
+        android:columnCount="6"
+        android:rowCount="6"
+        android:layout_weight="9"
+        android:weightSum="1">
+        <!--6 columns 5 rows -->
+
+        <!-- title 6 columns -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="6"
+            android:layout_gravity="center"
+            android:layout_rowWeight="0.5"
+            android:hint="History"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="Date"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="Time"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="Type"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="Calories"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="Mood"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="Km"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <!-- 4 row * 6 columns data -->
+        <TextView
+            android:id="@+id/date1"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="@string/text_date1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/date2"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <!-- 4 row * 6 columns data -->
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="10"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <!-- 4 row * 6 columns data -->
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="10"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/grid_frame"
+            android:text="1"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <!--  <TextView
+          android:text=" "
+          android:layout_rowSpan="2"
+          android:layout_gravity="fill_vertical"
+          android:layout_columnWeight="1"
+          android:layout_rowWeight="2"
+          android:textSize="20dp"
+          android:background="@drawable/grid_frame"/>
+      //跨两行 自动填充 绿色 列权重1 行权重2
+    -->
+
+    </GridLayout>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:forceHasOverlappingRendering="true"
+        app:itemBackground="@color/color_menu"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/navigation" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_above="@id/navigation"
+        android:background="@drawable/bottom_shadow" />
+
+</LinearLayout>
